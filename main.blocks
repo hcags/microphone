@@ -1,4 +1,31 @@
-<xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="pxt-on-start"></block>
-  <block type="device_forever"></block>
-</xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="+6_ruSRswZl7c)upFRTY">hearing</variable></variables><block type="device_button_selected_event" id="x{8;#s}o,3;D_^nbU@-t" x="532" y="-611"><field name="NAME">Button.A</field><value name="eventType"><shadow type="control_button_event_click" id="P}!@}g=tJR3S~Y9IL;jC"/></value><statement name="HANDLER"><block type="controls_if" id="ICTLmo/NM,7*`P!HRH35"><mutation elseif="2" else="1"/><value name="IF0"><shadow type="logic_boolean" id="_CZ-5s[*?0tPMY;]3IeM"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="$-_`51*nIcS_U0uf,ugn"><field name="OP">LT</field><value name="A"><shadow type="math_number" id="qlI%?A[3ing4s#cgog`H"><field name="NUM">0</field></shadow><block type="soundLevel" id="=GbfnaFZQ+6-}earuOn`"/></value><value name="B"><shadow type="math_number" id="[4~lew/rPi.M~0Yr2#s9"><field name="NUM">50</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="Hx624j2PFV9ig[dwuHUc"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement><value name="IF1"><block type="logic_operation" id="0dP$]{+#lB6:bv-+ScDH"><field name="OP">AND</field><value name="A"><block type="logic_compare" id="t|E`%Zf!H,xa#YLy%lL^"><field name="OP">GTE</field><value name="A"><shadow type="math_number" id="ctgaAcNT!9q#MTE}nJlv"><field name="NUM">0</field></shadow><block type="soundLevel" id="L7y9-B!X9z`tfMz?8.bf"/></value><value name="B"><shadow type="math_number" id="Lyk$3lZpLVkTm8yk!+*!"><field name="NUM">50</field></shadow></value></block></value><value name="B"><block type="logic_compare" id="NZ=iqjy4bf)[=$@xrD2J"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="soundLevel" id="zZSwdSgAIj{+7f#8W]_T"/></value><value name="B"><shadow type="math_number" id="f1p2)9yf/wEj+^K=4o+w"><field name="NUM">125</field></shadow></value></block></value></block></value><statement name="DO1"><block type="device_show_leds" id="KTicmn+veL-wBiO#G;-d"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement><value name="IF2"><block type="logic_operation" id="/S*Ujl)2F/oki|UV]WQ}"><field name="OP">AND</field><value name="A"><block type="logic_compare" id="IVt_bR-vThXBi(kYPNA#"><field name="OP">GTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="soundLevel" id="H#BX%%EyLV(kDjhsi;co"/></value><value name="B"><shadow type="math_number" id="yLmof|DPZtcBxnAMfCRW"><field name="NUM">125</field></shadow></value></block></value><value name="B"><block type="logic_compare" id=".oJ?QwoF!Vz(/ckH^Xo$"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="soundLevel" id=";XE-w_S(#U/6+W!q),,^"/></value><value name="B"><shadow type="math_number" id="q~bTohWJFj,XB_kMByui"><field name="NUM">190</field></shadow></value></block></value></block></value><statement name="DO2"><block type="device_show_leds" id="#qELs?S[m1y4sP]?CT;m"><field name="LEDS">`
+        . # . # . 
+        # . . . # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="?p#6s$~@vN%Ng=bxT(H["><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement></block></statement></block><block type="device_forever" id="6*w7%uqe97kO]]j9+b2u" x="620" y="-513"/><block type="pxt-on-start" id="wx^f:geC+u~H_itMnmc#" x="-18" y="-416"><statement name="HANDLER"><block type="device_show_leds" id="#(R0=54UCg]iV02/olZX"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_set_led_color" id="Ga#B=KI]tSo6(u8*@Wx]"><value name="color"><shadow type="colorNumberPicker" id="I.Ruo]q@2ENU[W)%x9N!"><field name="value">0xff0000</field></shadow></value></block></next></block></statement></block></xml>
